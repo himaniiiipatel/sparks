@@ -1,0 +1,92 @@
+html, 
+body{
+    background-color: #444;
+}
+
+.navbar-dark {
+    background-color: #111;
+}
+
+.navbar .nav-item .nav-link {
+    font-weight: 700;
+}
+
+.navbar .nav-item:hover .nav-link{
+    color: #ADFF2F;
+}
+
+
+  .row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.container {
+    color: #fff;
+    margin: auto;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    background-color: #111;
+    font-size: 18px;
+    color: #f2f2f2;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height: 50px;
+}
+
+.footerText {
+    height: 200px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: #888;
+}
+
+.footerText > p > a:hover {
+    text-decoration: none;
+    color: #ADFF2F;
+}
+
+.container > #functionality {
+    font-size: 20px;
+    font-style: oblique;
+    color: #90ee90;
+    margin: auto;
+}
+
+  /* Create User */
+
+  .notification {
+    color: red;
+  }
+
+  /* Users.php */
+
+.sort thead,
+ .table-sort thead{
+    text-align: center;
+    background-color: #111;
+}
+
+.sort tbody{    
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 15px;
+    color: #90ee90;
+}
+
+.btn:hover {
+    background-color: rgba(50,200,150, 0.6);
+    color: #222;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.2);
+}
